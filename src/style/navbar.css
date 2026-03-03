@@ -1,0 +1,75 @@
+/*  Ton fichier contenant toutes des variables de couleurs pour ton site  */
+:root {
+    --primary: #515251;
+    --primary-dark: #404040;
+    --primary-light: #F6F6F6;
+    --middle-blue:#0D5E91;
+    --dark-blue: #041C2B;
+    --flash-green:#38D49F;
+    --blk: #222222;
+    --wht: #FEFEFE;
+    --alert: #FF4800;
+    --alert-hover: #AD0707;
+    --message: #C2EBC4;
+    --message-hover:#9DD8A0;
+    --shadow-light: #DBDFDB;
+    --shadow-dark: #c9cac9;
+    --static-opacity: rgba(81, 82, 81, 0.17);
+}
+
+.navbar {
+    background-color: var(--primary);
+    color: var(--shadow-dark);
+    padding: 1rem;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--wht);
+    text-decoration: none;
+}
+
+.burger {
+    font-size: 1.5rem;
+    background: none;
+    color: var(--wht);
+    cursor: pointer;
+}
+
+.nav-links {
+    display: none;
+    flex-direction: column;
+    list-style: none;
+    padding: 1rem 0;
+}
+
+.nav-links li {
+    margin: 0.5rem 0;
+}
+
+.nav-links a {
+    color: var(--wht);
+    text-decoration: none;
+}
+
+.nav-links.active {
+    display: flex;
+}
+
+@media (min-width: 768px) {
+    .burger {
+        display: none;
+    }
+    .nav-links {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+    }
+}
