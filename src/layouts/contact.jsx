@@ -4,7 +4,7 @@ import Button from "../components/button.jsx";
 export default function Contact() {
   return (
     <>
-      <section className="contact-section">
+      <section className="contact-section" id="contact">
         <h1 className="section-title">Me contacter</h1>
 
         <div className="contact-container">

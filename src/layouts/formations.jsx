@@ -4,7 +4,7 @@ import Button from "../components/button.jsx";
 export default function Formations () {
     return (
         <>
-        <section className="formations">
+        <section className="formations" id="formations">
 
     <div className="header">
         <div className="icon">🎓</div>

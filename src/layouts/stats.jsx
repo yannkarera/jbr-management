@@ -10,7 +10,7 @@ export default function Stats () {
                         <div className="stat-label">Assemblées sur la gestion copropriétés</div>
                     </div>
                     <div className="stat-item">
-                        <div className="stat-number">4</div>
+                        <div className="stat-number">6</div>
                         <div className="stat-label">Livres</div>
                     </div>
                     <div className="stat-item">

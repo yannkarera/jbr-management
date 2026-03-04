@@ -48,9 +48,9 @@
 }
 
 .agenda-date{
-    margin: 1rem;
+    margin: 16px;
     border-bottom: 4px solid var(--wht); 
-    padding: 2rem;
+    padding: 32px;
 }
 
 .map-placeholder {
@@ -71,7 +71,6 @@
     opacity: 0.8;
 }
 
-/* ===== TABLETTE (600px+) ===== */
 @media (min-width: 600px) {
     .agenda-section {
         padding: 80px 30px;
@@ -83,7 +82,6 @@
     }
 }
 
-/* ===== DESKTOP (900px+) ===== */
 @media (min-width: 900px) {
     .agenda-section {
         flex-direction: row;

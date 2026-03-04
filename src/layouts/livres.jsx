@@ -3,7 +3,7 @@ import "../style/livres.css";
 export default function Livres () {
     return (
         <>
-        <section className="books-section">
+        <section className="books-section" id="books">
 
     <div className="books-grid">
 

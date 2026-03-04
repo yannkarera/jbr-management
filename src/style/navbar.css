@@ -1,17 +1,16 @@
-/*  Ton fichier contenant toutes des variables de couleurs pour ton site  */
 :root {
     --primary: #515251;
     --primary-dark: #404040;
     --primary-light: #F6F6F6;
-    --middle-blue:#0D5E91;
+    --middle-blue: #0D5E91;
     --dark-blue: #041C2B;
-    --flash-green:#38D49F;
+    --flash-green: #38D49F;
     --blk: #222222;
     --wht: #FEFEFE;
     --alert: #FF4800;
     --alert-hover: #AD0707;
     --message: #C2EBC4;
-    --message-hover:#9DD8A0;
+    --message-hover: #9DD8A0;
     --shadow-light: #DBDFDB;
     --shadow-dark: #c9cac9;
     --static-opacity: rgba(81, 82, 81, 0.17);
@@ -27,65 +26,90 @@
     background: linear-gradient(135deg, #0d1b3d 0%, #1a2d5a 100%);
     color: var(--shadow-dark);
     padding: 1rem;
-    width: 100vw;
-    box-sizing: border-box;
-
+    width: 100%;
 }
 
-.navbar-container{
+.navbar-container {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 .navbar-logo {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: bold;
     color: var(--wht);
     text-decoration: none;
-
 }
 
 .burger {
     font-size: 1.5rem;
     background: none;
+    border: none;
     color: var(--wht);
     cursor: pointer;
+    padding: 0.25rem;
 }
 
 .nav-links {
     display: none;
     flex-direction: column;
+    align-items: flex-start;
     list-style: none;
-    padding: 1rem 0;
+    width: 100%;
+    padding: 0.75rem 0;
+    gap: 0.75rem;
+}
+
+.nav-links.active {
+    display: flex;
 }
 
 .nav-links li {
-    margin: 0.5rem 0;
+    width: 100%;
 }
 
 .nav-links a {
     color: var(--wht);
     text-decoration: none;
-}
-
-.nav-links.active {
-    display: flex;
-    flex-direction: column;
+    font-size: 1rem;
+    display: block;
+    padding: 0.25rem 0;
 }
 
 @media (min-width: 768px) {
+    .navbar-container {
+        flex-wrap: nowrap;
+        gap: 2rem;
+    }
+
+    .navbar-logo {
+        font-size: 1.5rem;
+    }
 
     .burger {
         display: none;
     }
+
     .nav-links {
         display: flex;
         flex-direction: row;
+        align-items: center;
+        width: auto;
+        padding: 0;
         gap: 2rem;
+    }
+
+    .nav-links li {
+        width: auto;
+    }
+
+    .nav-links a {
+        padding: 0;
     }
 }

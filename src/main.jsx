@@ -8,6 +8,7 @@ import Agenda from './layouts/agenda.jsx';
 import Livres from './layouts/livres.jsx'
 import Formations from './layouts/formations.jsx';
 import Contact from './layouts/contact.jsx';
+import Footer from './layouts/footer.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -18,5 +19,6 @@ createRoot(document.getElementById('root')).render(
     <Livres />
     <Formations />
     <Contact />
+    <Footer />
   </StrictMode>,
 )

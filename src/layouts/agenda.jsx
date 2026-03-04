@@ -4,7 +4,7 @@ import Button from "../components/button.jsx";
 export default function Agenda () {
     return (
         <>
-        <section className="agenda-section">
+        <section className="agenda-section" id="agenda">
     <div className="agenda-left">
         <h2>AGENDA 2026</h2>
 

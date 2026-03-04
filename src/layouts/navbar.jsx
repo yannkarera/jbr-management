@@ -4,6 +4,7 @@ import Button from '../components/button';
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
+    const handleNavClick = () => setIsOpen(false);
 
     return (
         <nav className="navbar">
@@ -12,11 +13,11 @@ export default function Navbar() {
 
                 <button className='burger' onClick={() => setIsOpen(!isOpen)} aria-label='Menu'>☰</button>
                 <ul className={`nav-links ${isOpen ? 'active' : ''}`}>
-                    <li><a href="#">Conférences</a></li>
-                    <li><a href="#">Formations</a></li>
-                    <li><a href="#">Livres</a></li>
+                    <li><a href="#agenda" onClick={handleNavClick}>Conférences</a></li>
+                    <li><a href="#formations" onClick={handleNavClick}>Formations</a></li>
+                    <li><a href="#books" onClick={handleNavClick}>Livres</a></li>
                     <li>FR | ENG | NL</li>
-                    <li><Button label="Contact" variant="outline" /></li>
+                    <li><a href="#contact" onClick={handleNavClick}><Button label="Contact" variant="outline" /></a></li>
                 </ul>
             </div>
         </nav>
