@@ -1,0 +1,142 @@
+.contact-section {
+    background-color: #d9cfbb;
+    padding: 40px 15px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.contact-left,
+.contact-right {
+    width: 100%;
+}
+
+.image-wrapper {
+    width: 100%;
+    border-radius: 30px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.image-wrapper img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.bio-box {
+    border: 2px solid #3d5a99;
+    padding: 15px;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.bio-box .highlight {
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.contact-right h2 {
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    background-color: #102e6b;
+    border: none;
+    padding: 12px;
+    color: white;
+    font-size: 13px;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #cbd5f0;
+}
+
+.contact-form button {
+    background-color: #e4e6eb;
+    border: 1px solid #3d5a99;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #3d5a99;
+    color: white;
+}
+
+
+
+@media (min-width: 768px) {
+
+    .section-title {
+        font-size: 28px;
+    }
+
+    .contact-right h2 {
+        font-size: 20px;
+    }
+
+    .bio-box {
+        font-size: 14px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .contact-section {
+        padding: 60px 20px;
+    }
+
+    .section-title {
+        font-size: 32px;
+        margin-bottom: 50px;
+    }
+
+    .contact-container {
+        max-width: 1200px;
+        margin: auto;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 60px;
+    }
+
+    .contact-left,
+    .contact-right {
+        flex: 1;
+    }
+
+    .image-wrapper {
+        max-width: 350px;
+        margin-bottom: 30px;
+    }
+
+    .contact-right h2 {
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+}
