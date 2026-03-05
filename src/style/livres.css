@@ -1,5 +1,6 @@
 .books-section {
     padding: 40px 20px;
+    background-color: #071f40;
 }
 
 .books-grid {
@@ -11,7 +12,6 @@
 }
 
 .book-card {
-    border: 1px dashed #2c8fff;
     display: flex;
     flex-direction: column;
     background-color: transparent;

@@ -8,7 +8,7 @@ export default function Hero() {
                     <div className="tagline">EXPERT EN COPROPRIÉTÉ DEPUIS PLUS DE 40 ANS</div>
                     <h1>Gestion de Copropriétés<br />& <span className="accent">Formation Spécialisée</span></h1>
                     <p className="subtitle">
-                        JBR Management accompagne copropriétaires et syndics en Belgique, en France et au Québec.
+                        Jean-Pierre Lannoy accompagne copropriétaires et syndics en Belgique, en France et au Québec.
                         Conseil, gestion et formation pour une copropriété maîtrisée.
                     </p>
 

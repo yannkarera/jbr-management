@@ -9,6 +9,7 @@ import Livres from './layouts/livres.jsx'
 import Formations from './layouts/formations.jsx';
 import Contact from './layouts/contact.jsx';
 import Footer from './layouts/footer.jsx';
+import Branding from './layouts/branding.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -16,9 +17,10 @@ createRoot(document.getElementById('root')).render(
     <Hero />
     <Stats />
     <Agenda />
-    <Livres />
     <Formations />
+    <Livres />
     <Contact />
+    <Branding />
     <Footer />
   </StrictMode>,
 )

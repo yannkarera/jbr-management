@@ -30,7 +30,7 @@
   content: "";
   position: absolute;
   inset: 0;
-  background: url("https://images.pexels.com/photos/323705/pexels-photo-323705.jpeg?auto=compress&cs=tinysrgb&w=1600")
+  background: url("../assets/img/hero2.png")
               center center/cover no-repeat;
   filter: brightness(0.4);
   transform: scale(1.05);

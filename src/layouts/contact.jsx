@@ -40,7 +40,6 @@ export default function Contact() {
 
             <form className="contact-form">
               <input type="text" placeholder="Votre nom" required />
-              <input type="text" placeholder="Raison du contact" required />
               <input type="email" placeholder="Votre email" required />
               <textarea placeholder="Message" rows="4" required></textarea>
 

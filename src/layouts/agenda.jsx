@@ -8,9 +8,16 @@ export default function Agenda () {
     <div className="agenda-left">
         <h2>AGENDA 2026</h2>
 
-        <div className="agenda-date">date (p) colloques france</div>
-        <div className="agenda-date">date (p) colloques Québec</div>
-        <div className="agenda-date">date (p) colloques maroc</div>
+        <div className="agenda-date">4 OCT Montreal - <span className="material-symbols-outlined">
+</span>OACIQ | 
+            Salon de la copropriété et l'Habitat
+        </div>
+        <div className="agenda-date">5 NOV - Paris Expo | 
+            Salon de la copropriété et de l'Habitat
+        </div>
+        <div className="agenda-date">19 NOV - Bruxelles Expo | 
+            Salon de la copropriété et de l'Habitat
+        </div>
 
         <Button label="Nous contacter" variant="primary" />
     </div>
@@ -18,7 +25,7 @@ export default function Agenda () {
     <div className="agenda-right">
         <h2>CONFÉRENCES</h2>
 
-        <div className="map-placeholder"></div>
+        <div className="map-placeholder"><img src="../assets/img/conferences.png"/></div>
           
     </div>
     </section>

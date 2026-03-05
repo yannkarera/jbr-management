@@ -2,15 +2,15 @@
     --primary: #515251;
     --primary-dark: #404040;
     --primary-light: #F6F6F6;
-    --middle-blue:#0D5E91;
+    --middle-blue: #0D5E91;
     --dark-blue: #041C2B;
-    --flash-green:#38D49F;
+    --flash-green: #38D49F;
     --blk: #222222;
     --wht: #FEFEFE;
     --alert: #FF4800;
     --alert-hover: #AD0707;
     --message: #C2EBC4;
-    --message-hover:#9DD8A0;
+    --message-hover: #9DD8A0;
     --shadow-light: #DBDFDB;
     --shadow-dark: #c9cac9;
     --static-opacity: rgba(81, 82, 81, 0.17);
@@ -23,7 +23,6 @@
     display: flex;
     flex-direction: column;
     gap: 40px;
-    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -47,9 +46,9 @@
     margin-bottom: 20px;
 }
 
-.agenda-date{
+.agenda-date {
     margin: 16px;
-    border-bottom: 4px solid var(--wht); 
+    border-bottom: 4px solid var(--wht);
     padding: 32px;
 }
 
@@ -64,6 +63,15 @@
     align-items: center;
     font-size: 16px;
     margin-bottom: 16px;
+    overflow: hidden;
+}
+
+.map-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 14px;
+    display: block;
 }
 
 .caption {
@@ -89,6 +97,7 @@
         align-items: center;
         padding: 120px 40px;
         gap: 60px;
+        max-width: 1400px;
     }
 
     .agenda-left h2,

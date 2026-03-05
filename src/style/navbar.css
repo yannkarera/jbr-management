@@ -25,7 +25,7 @@
 .navbar {
     background: linear-gradient(135deg, #0d1b3d 0%, #1a2d5a 100%);
     color: var(--shadow-dark);
-    padding: 1rem;
+    padding: 5px;
     width: 100%;
 }
 
@@ -41,10 +41,15 @@
 }
 
 .navbar-logo {
-    font-size: 1.25rem;
-    font-weight: bold;
-    color: var(--wht);
-    text-decoration: none;
+   display: flex;
+   align-items: center;
+}
+
+.navbar-logo img{
+    height: 40px;
+    width: auto;
+    object-fit: contain;
+    display: block;
 }
 
 .burger {
@@ -88,8 +93,8 @@
         gap: 2rem;
     }
 
-    .navbar-logo {
-        font-size: 1.5rem;
+    .navbar-logo img {
+        height: 100px;
     }
 
     .burger {

@@ -9,7 +9,7 @@ export default function Navbar() {
     return (
         <nav className="navbar">
             <div className="navbar-container">
-                <a href="/" className="navbar-logo">JBR Management</a>
+                <a href="/" className="navbar-logo"><img src="../assets/img/logo.png" alt="De Lannoy logo" /></a>
 
                 <button className='burger' onClick={() => setIsOpen(!isOpen)} aria-label='Menu'>☰</button>
                 <ul className={`nav-links ${isOpen ? 'active' : ''}`}>
