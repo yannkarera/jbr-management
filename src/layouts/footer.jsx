@@ -3,10 +3,7 @@ import "../style/footer.css";
 export default function Footer() {
     return (
         <footer className="footer">
-    <div className="logo-container">
-        <i className="fas fa-graduation-cap"></i>
-        <h1>Copro Academy</h1>
-    </div>
+    
 -
     <nav className="footer_navbar">
         <ul>
