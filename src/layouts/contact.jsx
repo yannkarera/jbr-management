@@ -12,7 +12,7 @@ export default function Contact() {
           <div className="contact-left">
 
             <div className="image-wrapper">
-              <img src="/jbr-management/assets/img/profile.jpg" alt="Jean Pierre Lannoy" />
+              <img src="/jbr-management/assets/img/profile.png" alt="Jean Pierre Lannoy" />
             </div>
 
             <div className="bio-box">
