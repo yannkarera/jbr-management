@@ -5,14 +5,14 @@ export default function Contact() {
   return (
     <>
       <section className="contact-section" id="contact">
-        <h1 className="section-title">Me contacter</h1>
+        
 
         <div className="contact-container">
 
           <div className="contact-left">
 
             <div className="image-wrapper">
-              <img src="image.jpg" alt="Intervenant" />
+              <img src="/jbr-management/assets/img/profile.jpg" alt="Jean Pierre Lannoy" />
             </div>
 
             <div className="bio-box">
