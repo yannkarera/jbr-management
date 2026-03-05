@@ -25,7 +25,7 @@ export default function Agenda () {
     <div className="agenda-right">
         <h2>CONFÉRENCES</h2>
 
-        <div className="map-placeholder"><img src="/assets/img/conferences.png"/></div>
+        <div className="map-placeholder"><img src="/jbr-management/assets/img/conferences.png"/></div>
           
     </div>
     </section>

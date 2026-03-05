@@ -9,7 +9,7 @@ export default function Livres () {
 
         <div className="book-card">
             <div className="book-image">
-                <img src="/assets/img/gestion_administrative.jpg" alt="Gestion administrative" />
+                <img src="/jbr-management/assets/img/gestion_administrative.jpg" alt="Gestion administrative" />
             </div>
             <div className="book-info">
                 <h3>La gestion administrative d’une copropriété</h3>
@@ -19,7 +19,7 @@ export default function Livres () {
 
         <div className="book-card">
             <div className="book-image">
-                <img src="/assets/img/gestion_technique.jpg" alt="Gestion technique" />
+                <img src="/jbr-management/assets/img/gestion_technique.jpg" alt="Gestion technique" />
             </div>
             <div className="book-info">
                 <h3>La gestion technique d’une copropriété</h3>
@@ -29,7 +29,7 @@ export default function Livres () {
 
         <div className="book-card">
             <div className="book-image">
-                <img src="/assets/img/gestion_financiere.png" alt="Gestion financière" />
+                <img src="/jbr-management/assets/img/gestion_financiere.png" alt="Gestion financière" />
             </div>
             <div className="book-info">
                 <h3>La gestion financière d’une copropriété</h3>
@@ -39,7 +39,7 @@ export default function Livres () {
 
         <div className="book-card">
             <div className="book-image">
-                <img src="/assets/img/copropriete_difficulte.jpg" alt="Copropriétés en difficulté" />
+                <img src="/jbr-management/assets/img/copropriete_difficulte.jpg" alt="Copropriétés en difficulté" />
             </div>
             <div className="book-info">
                 <h3>Les copropriétés en difficulté : Constats et solutions</h3>
@@ -49,7 +49,7 @@ export default function Livres () {
 
         <div className="book-card">
             <div className="book-image">
-                <img src="/assets/img/prevention.png" alt="Prévention conflits" />
+                <img src="/jbr-management/assets/img/prevention.png" alt="Prévention conflits" />
             </div>
             <div className="book-info">
                 <h3>De la prévention à la résolution des conflits en copropriété</h3>
@@ -59,7 +59,7 @@ export default function Livres () {
 
         <div className="book-card">
             <div className="book-image">
-                <img src="/assets/img/forum_immobilier.png" alt="Forum immobilier" />
+                <img src="/jbr-management/assets/img/forum_immobilier.png" alt="Forum immobilier" />
             </div>
             <div className="book-info">
                 <h3>Forum de l’Immobilier</h3>
