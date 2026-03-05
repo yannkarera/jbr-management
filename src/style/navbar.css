@@ -24,41 +24,44 @@
 
 .navbar {
     background: linear-gradient(135deg, #0d1b3d 0%, #1a2d5a 100%);
-    color: var(--shadow-dark);
-    padding: 5px;
-    width: 100%;
+    padding: 0.5rem 1rem;
+    width: 100vw;       /* ← force la largeur de l'écran */
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .navbar-container {
-    max-width: 1200px;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 1rem;
-    width: 100%;
     flex-wrap: wrap;
+    width: 100%;
 }
-
 .navbar-logo {
-   display: flex;
-   align-items: center;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    min-width: 0;       /* ← empêche le logo de déborder */
+    overflow: hidden;
 }
 
-.navbar-logo img{
-    height: 40px;
+.navbar-logo img {
+    height: 45px;
     width: auto;
+    max-width: 100%;    /* ← contraint l'image dans son conteneur */
     object-fit: contain;
     display: block;
 }
 
 .burger {
+    display: block;
     font-size: 1.5rem;
     background: none;
     border: none;
     color: var(--wht);
     cursor: pointer;
     padding: 0.25rem;
+    flex-shrink: 0;
 }
 
 .nav-links {
