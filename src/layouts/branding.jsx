@@ -6,12 +6,12 @@ export default function Branding () {
         <div className="wrapper">
   <div className="container">
     <img src="/assets/img/cefim.png" alt="Cefim_logo" className="logo" />
-    <img src="jbr-management/assets/img/conseil_sup.png" alt="Conseil_logo" className="logo" /> 
-    <img src="jbr-management/assets/img/efp.png" alt="efp_logo" className="logo" />
-    <img src="jbr-management/assets/img/copro.png" alt="copro_logo" className="logo" />
+    <img src="/assets/img/conseil_sup.png" alt="Conseil_logo" className="logo" /> 
+    <img src="/assets/img/efp.png" alt="efp_logo" className="logo" />
+    <img src="/assets/img/copro.png" alt="copro_logo" className="logo" />
   </div>
   <div className="container">
-    <img src="jbr-management/assets/img/cefim.png" alt="Cefim_logo" className="logo" />
+    <img src="/assets/img/cefim.png" alt="Cefim_logo" className="logo" />
     <img src="/assets/img/conseil_sup.png" alt="Conseil_logo" className="logo" /> 
     <img src="/assets/img/efp.png" alt="efp_logo" className="logo" />
     <img src="/assets/img/copro.png" alt="copro_logo" className="logo" />
