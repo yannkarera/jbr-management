@@ -1,5 +1,5 @@
 .contact-section {
-    background-color: #d9cfbb;
+    background-color: #071f40;
     padding: 40px 15px;
 }
 
@@ -37,7 +37,6 @@
 }
 
 .bio-box {
-    border: 2px solid #3d5a99;
     padding: 15px;
     font-size: 13px;
     line-height: 1.6;
@@ -50,8 +49,10 @@
 
 .contact-right h2 {
     font-size: 18px;
+    font-weight: bold;
     letter-spacing: 1px;
     margin-bottom: 20px;
+    color: var(--wht);
 }
 
 .contact-form {

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined');
+:root {
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.87);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+:root {
+    --primary: #515251;
+    --primary-dark: #404040;
+    --primary-light: #F6F6F6;
+    --middle-blue: #0D5E91;
+    --dark-blue: #041C2B;
+    --flash-green: #38D49F;
+    --blk: #222222;
+    --wht: #FEFEFE;
+    --alert: #FF4800;
+    --alert-hover: #AD0707;
+    --message: #C2EBC4;
+    --message-hover: #9DD8A0;
+    --shadow-light: #DBDFDB;
+    --shadow-dark: #c9cac9;
+    --static-opacity: rgba(81, 82, 81, 0.17);
+}
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+h1 {
+  font-family: "Abhaya Libre", serif;
+  font-weight: 800;
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+h2 {
+  font-family: "Cormorant", serif;
+}
