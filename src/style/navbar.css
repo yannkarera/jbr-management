@@ -74,7 +74,7 @@
 
 .lang-btn.active {
     font-weight: bold;
-    text-decoration: underline; /* ou la couleur de ton choix */
+    text-decoration: underline 5px var(--alert-hover); /* ou la couleur de ton choix */
 }
 
 .lang-separator {

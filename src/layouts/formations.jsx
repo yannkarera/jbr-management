@@ -8,7 +8,7 @@ export default function Formations () {
 
     <div className="header">
         <div className="icon">🎓</div>
-        <h2>Mes formation</h2>
+        <h2>Mes formations</h2>
         <h1>Copro Academy</h1>
     </div>
 

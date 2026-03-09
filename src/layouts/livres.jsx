@@ -4,6 +4,7 @@ export default function Livres () {
     return (
         <>
         <section className="books-section" id="books">
+            <h1>MES LIVRES</h1>
 
     <div className="books-grid">
 

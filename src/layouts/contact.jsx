@@ -26,7 +26,7 @@ export default function Contact() {
               </p>
 
               <p>
-                Ancien président du CEFIM...
+                Ancien président du CEFIM
               </p>
 
               <p>

@@ -3,6 +3,13 @@
     background-color: #071f40;
 }
 
+.books-section h1{
+    display: flex;
+    justify-content: center;
+    color: var(--wht);
+    margin-bottom: 40px;
+}
+
 .books-grid {
     display: grid;
     grid-template-columns: 1fr;

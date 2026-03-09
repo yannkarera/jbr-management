@@ -45,6 +45,7 @@
 .bio-box .highlight {
     font-weight: bold;
     margin: 15px 0;
+    color: var(--alert-hover)
 }
 
 .contact-right h2 {
