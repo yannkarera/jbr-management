@@ -3,6 +3,7 @@ import { createContext, useContext, useState } from 'react';
 const translations = {
   FR: {
     nav: {
+      about: 'A propos de moi',
       conferences: 'Conférences',
       formations: 'Formations',
       books: 'Livres',
@@ -13,8 +14,16 @@ const translations = {
       title: 'Gestion de Copropriétés',
       titleAccent: 'Formation Spécialisée',
       subtitle: 'Jean-Pierre Lannoy accompagne copropriétaires et syndics en Belgique, en France et au Québec. Conseil, gestion et formation pour une copropriété maîtrisée.',
+      cta: 'Prendre rendez-vous',
+      conferences: 'Découvrir CoPro Academy',
     },
-         stats: {
+  about: {
+    bio1: 'Depuis plus de 40 ans, Jean-Pierre Lannoy s\'est imposé comme une référence incontournable dans le domaine de la copropriété en Belgique, en France et au Québec.',
+    bio2: 'Syndic, formateur, conférencier et auteur de 6 ouvrages publiés aux éditions Anthemis, il met son expertise au service des copropriétaires, syndics et professionnels de l\'immobilier.',
+    bio3: 'Ancien président du CEFIM, il a contribué à structurer et professionnaliser le secteur à travers des formations certifiées, des conférences internationales et un accompagnement terrain concret.',
+    bio4: 'Son approche conjugue rigueur juridique, sens pédagogique et expérience du terrain — pour une copropriété mieux gérée, plus sereine et durable.',
+  },
+    stats: {
     assemblies: 'Assemblées sur la gestion copropriétés',
     books: 'Livres',
     training: 'De formation',
@@ -53,6 +62,7 @@ const translations = {
     book4: { title: 'Les copropriétés en difficulté : Constats et solutions' },
     book5: { title: 'De la prévention à la résolution des conflits en copropriété' },
     book6: { title: 'Forum de l\'Immobilier', role: 'Membre du Comité de Rédaction' },
+    cta: 'Boutique'
   },
     contact: {
     title: 'PRENDRE CONTACT',
@@ -60,16 +70,14 @@ const translations = {
     email: 'Votre email',
     message: 'Message',
     send: 'Envoyer',
-    bio1: 'Plus de quatre décennies à naviguer dans la copropriété, de la Belgique au Québec, m\'ont appris une chose :',
-    bio2: 'mon expertise n\'est jamais aussi utile que lorsqu\'elle est partagée.',
-    bio3: 'Ancien président du CEFIM',
-    bio4: 'Mettons mon expérience au service de vos projets.',
+
   }
   },
     
 
   EN: {
     nav: {
+      about: 'About me',
       conferences: 'Conferences',
       formations: 'Training',
       books: 'Books',
@@ -80,7 +88,15 @@ const translations = {
       title: 'Co-ownership Management',
       titleAccent: 'Specialized Training',
       subtitle: 'Jean-Pierre Lannoy supports co-owners and property managers in Belgium, France and Quebec. Advice, management and training for a well-managed co-ownership.',
+      cta: 'Book an appointment',
+      conferences: 'Discover CoPro Academy'
     },
+  about: {
+    bio1: 'For over 40 years, Jean-Pierre Lannoy has established himself as a leading authority in co-ownership management across Belgium, France and Quebec.',
+    bio2: 'Property manager, trainer, speaker and author of 6 books published by Anthemis, he brings his expertise to co-owners, property managers and real estate professionals.',
+    bio3: 'As former president of CEFIM, he has helped structure and professionalize the sector through certified training programs, international conferences and hands-on field support.',
+    bio4: 'His approach combines legal rigor, teaching skills and field experience — for co-ownership that is better managed, more peaceful and sustainable.',
+  },
      stats: {
     assemblies: 'Assemblies on co-ownership management',
     books: 'Books',
@@ -122,6 +138,7 @@ const translations = {
     book4: { title: 'Co-ownerships in difficulty: Observations and solutions' },
     book5: { title: 'From prevention to conflict resolution in co-ownership' },
     book6: { title: 'Real Estate Forum', role: 'Member of the Editorial Committee' },
+    cta: 'Shop'
   },
     contact: {
     title: 'GET IN TOUCH',
@@ -137,6 +154,7 @@ const translations = {
   },
   NL: {
     nav: {
+      about: 'Over mij',
       conferences: 'Conferenties',
       formations: 'Opleidingen',
       books: 'Boeken',
@@ -147,7 +165,15 @@ const translations = {
       title: 'Beheer van Mede-eigendom',
       titleAccent: 'Gespecialiseerde Opleiding',
       subtitle: 'Jean-Pierre Lannoy begeleidt mede-eigenaars en syndici in België, Frankrijk en Quebec. Advies, beheer en opleiding voor een beheerste mede-eigendom.',
+      cta: 'Maak een afspraak',
+      conferences: 'Ontdek CoPro Academy'
     },
+  about: {
+    bio1: 'Gedurende meer dan 40 jaar heeft Jean-Pierre Lannoy zich gevestigd als een toonaangevende autoriteit op het gebied van mede-eigendom in België, Frankrijk en Quebec.',
+    bio2: 'Syndicus, opleider, spreker en auteur van 6 boeken uitgegeven door Anthemis, stelt hij zijn expertise ter beschikking van mede-eigenaars, syndici en vastgoedprofessionals.',
+    bio3: 'Als voormalig voorzitter van CEFIM heeft hij bijgedragen aan de structurering en professionalisering van de sector via gecertificeerde opleidingen, internationale conferenties en concrete terreinbegeleiding.',
+    bio4: 'Zijn aanpak combineert juridische strengheid, pedagogisch inzicht en terreinervaring — voor een mede-eigendom die beter beheerd, serener en duurzamer is.',
+  },
     stats: {
     assemblies: 'Vergaderingen over mede-eigendom beheer',
     books: 'Boeken',
@@ -187,6 +213,7 @@ const translations = {
     book4: { title: 'Mede-eigendommen in moeilijkheden: Vaststellingen en oplossingen' },
     book5: { title: 'Van preventie tot conflictoplossing in mede-eigendom' },
     book6: { title: 'Vastgoedforum', role: 'Lid van de Redactiecommissie' },
+    cta: 'winkel'
   },
     contact: {
     title: 'NEEM CONTACT OP',

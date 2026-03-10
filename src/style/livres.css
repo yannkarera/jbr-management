@@ -55,6 +55,11 @@
     color: #9ec3ff;
     font-size: 13px;
 }
+.books-cta{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
 
 @media (min-width: 640px) {
     .books-grid {

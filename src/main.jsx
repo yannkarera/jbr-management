@@ -10,13 +10,15 @@ import Livres from './layouts/livres.jsx'
 import Formations from './layouts/formations.jsx';
 import Contact from './layouts/contact.jsx';
 import Footer from './layouts/footer.jsx';
-import Branding from './layouts/branding.jsx'
+import Branding from './layouts/branding.jsx';
+import About from './layouts/about.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <LanguageProvider>  {/* ← enveloppe tout */}
       <Navbar />
       <Hero />
+      <About />
       <Stats />
       <Agenda />
       <Formations />

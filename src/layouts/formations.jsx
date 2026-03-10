@@ -17,17 +17,17 @@ export default function Formations() {
                 <div className="card">
                     <h3>{t('formations.card1.title')}</h3>
                     <p>{t('formations.card1.desc')}</p>
-                    <Button label={t('formations.cta')} variant="primary" />
+                    <a href="https://copro.academy/formation"><Button label={t('formations.cta')} variant="primary" /></a>
                 </div>
                 <div className="card">
                     <h3>{t('formations.card2.title')}</h3>
                     <p>{t('formations.card2.desc')}</p>
-                    <Button label={t('formations.cta')} variant="primary" />
+                    <a href="https://copro.academy/formation"><Button label={t('formations.cta')} variant="primary" /></a>
                 </div>
                 <div className="card">
                     <h3>{t('formations.card3.title')}</h3>
                     <p>{t('formations.card3.desc')}</p>
-                    <Button label={t('formations.cta')} variant="primary" />
+                    <a href="https://copro.academy/formation"><Button label={t('formations.cta')} variant="primary" /></a>
                 </div>
             </div>
         </section>

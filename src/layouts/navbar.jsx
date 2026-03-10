@@ -13,11 +13,12 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <a href="/" className="navbar-logo">
+        <a href="" className="navbar-logo">
           <img src="/jbr-management/assets/img/logo.png" alt="De Lannoy logo" />
         </a>
         <button className='burger' onClick={() => setIsOpen(!isOpen)} aria-label='Menu'>☰</button>
         <ul className={`nav-links ${isOpen ? 'active' : ''}`}>
+          <li><a href="#aboutme" onClick={handleNavClick}>{t('nav.about')}</a></li>
           <li><a href="#agenda" onClick={handleNavClick}>{t('nav.conferences')}</a></li>
           <li><a href="#formations" onClick={handleNavClick}>{t('nav.formations')}</a></li>
           <li><a href="#books" onClick={handleNavClick}>{t('nav.books')}</a></li>

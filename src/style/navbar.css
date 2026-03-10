@@ -23,7 +23,7 @@
 }
 
 .navbar {
-    background: linear-gradient(135deg, #0d1b3d 0%, #1a2d5a 100%);
+    background: linear-gradient(135deg, #071f40 0%, #1a2d5a 100%);
     padding: 0.5rem 1rem;
     width: 100vw;       /* ← force la largeur de l'écran */
     max-width: 100%;

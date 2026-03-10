@@ -1,5 +1,6 @@
 import "../style/livres.css";
 import { useLang } from "../context/LanguageContext";
+import Button from "../components/button";
 
 const books = [
     { key: 'book1', img: '/jbr-management/assets/img/gestion_administrative.jpg', alt: 'Gestion administrative', year: '2026 - Ed. Anthemis' },
@@ -28,6 +29,9 @@ export default function Livres() {
                         </div>
                     </div>
                 ))}
+            </div>
+            <div className="books-cta">
+                <a href="https://www.lgdj.fr/auteurs/jean-pierre-lannoy.html"><Button label={t('books.cta')} variant="primary" /></a>
             </div>
         </section>
     );

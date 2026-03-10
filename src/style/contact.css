@@ -25,9 +25,10 @@
 
 .image-wrapper {
     width: 100%;
-    border-radius: 30px;
+    border-radius: 0px;
     overflow: hidden;
     margin-bottom: 20px;
+    background-color: #071f40;
 }
 
 .image-wrapper img {

@@ -49,6 +49,7 @@
 .hero-content {
   max-width: 900px;
   padding: 0 20px;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.6);
 }
 
 .tagline {
@@ -57,7 +58,6 @@
   text-transform: uppercase;
   color: var(--wht);
   margin-bottom: 14px;
-  box-shadow: black 2px;
 }
 
 h1 {
@@ -104,7 +104,7 @@ h1 span.accent {
 
 .btn-outline {
   background: var(--alert-hover);
-  color: #ffffff;
+  color: var(--wht);
   border: 1px solid rgba(255, 255, 255, 0.7);
 }
 
