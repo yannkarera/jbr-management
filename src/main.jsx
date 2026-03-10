@@ -1,6 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import '../index.css'
+import { LanguageProvider } from './context/LanguageContext';  // ← ajoute cet import
 import Navbar from './layouts/navbar.jsx';
 import Hero from './layouts/hero.jsx'
 import Stats from './layouts/stats.jsx'
@@ -13,14 +14,16 @@ import Branding from './layouts/branding.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Navbar />
-    <Hero />
-    <Stats />
-    <Agenda />
-    <Formations />
-    <Livres />
-    <Contact />
-    <Branding />
-    <Footer />
+    <LanguageProvider>  {/* ← enveloppe tout */}
+      <Navbar />
+      <Hero />
+      <Stats />
+      <Agenda />
+      <Formations />
+      <Livres />
+      <Contact />
+      <Branding />
+      <Footer />
+    </LanguageProvider>
   </StrictMode>,
 )

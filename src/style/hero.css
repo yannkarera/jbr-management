@@ -32,7 +32,7 @@
   inset: 0;
   background: url("/assets/img/hero2.png")
               center center/cover no-repeat;
-  filter: brightness(0.4);
+  filter: brightness(1);
   transform: scale(1.05);
   transition: transform 0.5s ease-out;
   z-index: -2;
@@ -57,6 +57,7 @@
   text-transform: uppercase;
   color: var(--wht);
   margin-bottom: 14px;
+  box-shadow: black 2px;
 }
 
 h1 {
